@@ -7,15 +7,12 @@
 <div class="h-18 w-full bg-blue-950 flex flex-row justify-between items-center sticky top-0 flex-nowrap space-x-4 p-4" >
     <SelfCard></SelfCard>
     <ContentModal heading="Menú" >
-        <CollapsedMenu heading={"Secciones"} >
-            <TopicLink link="./sections/section1" >
-                Sección #1
+        <CollapsedMenu heading={"The Console Logs"} >
+            <TopicLink link="/blog/the-console-logs/maitei" >
+                ¡Maiteĩ!
             </TopicLink>
-            <TopicLink link="./sections/section2" >
-                Sección #2
-            </TopicLink>
-            <TopicLink link="./sections/section3" >
-                Sección #3
+            <TopicLink link="/blog/the-console-logs/nos-pasamos-a-svelte" >
+                ¡Nos pasamos a Svelte!
             </TopicLink>
         </CollapsedMenu>
     </ContentModal>
